@@ -52,7 +52,7 @@ M.make = function(buf_id, max_width)
 				g = group
 			})
 		end
-		current_row = current_row .. tab_name .. M.seperator
+		current_row = current_row .. M.seperator .. tab_name .. M.seperator
 	end
 
 	if current_row ~= "" then
